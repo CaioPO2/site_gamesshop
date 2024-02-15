@@ -4,39 +4,34 @@
     box-sizing: border-box;
 }
 
-header,
+header h1,
+header nav li a,
 section h2,
 section h3,
 form button{
-    font-family: 'Bungee', cursive ;
+    font-family: 'bungee', cursive;
     font-weight: normal;
 }
 
 body, input, textarea{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'roboto', sans-serif;
 }
 
 header{
     padding: 16px 0;
-    background-color: #182c61;
-    color: #ecf0f1;
+    background-color: #cd1a1a;
+    color: #f3eaea;
 }
 
 header nav li{
     display: inline;
     margin-left: 16px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 header nav li a{
-    color: #ecf0f1;
+    color: #f3eaea;
     text-decoration: none;
-}
-
-.container{
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
 }
 
 header .container,
@@ -46,11 +41,22 @@ section .container{
     justify-content: space-between;
 }
 
-.brand-list img{
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.persona5{
+    height: 400px;
+    margin-right: 32px;
+}
+
+.platforms img{
     height: 24px;
 }
 
-.brand-list li{
+.platforms li{
     display: inline;
     margin-right: 8px;
 }
@@ -68,27 +74,23 @@ section h2{
 }
 
 section{
-    color: #182c61;
+    color: #c32c2c;
 }
 
 section p{
     margin-bottom: 8px;
 }
 
-.store-front{
-    margin-right: 32px;
-}
-
-.Social-Links img{
+.social-links img{
     height: 24px;
 }
 
-.Social-Links li{
+.social-links li{
     display: inline;
     margin-right: 8px;
 }
 
-.Social-Links li a{
+.social-links li a{
     text-decoration: none;
 }
 
@@ -120,22 +122,22 @@ section h3{
 }
 
 form button{
-    background-color: #182c61;
-    color: #ecf0f1;
+    background-color: #cd1a1a;
+    color: #f3eaea;
     border: none;
     cursor: pointer;
 }
 
 form button:hover{
-    background-color: #314e9e;
+    background-color: #c32c2c;
 }
 
 input:focus, textarea:focus{
-    outline: #182c61;
+    outline: #f3eaea;
 }
 
 footer{
-    background-color: #182c61;
-    color: #ecf0f1;
+    background-color: #c32c2c;
+    color: #f3eaea;
     padding: 16px 0;
 }
